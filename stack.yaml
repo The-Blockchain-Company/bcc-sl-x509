@@ -1,0 +1,13 @@
+#TODO ensure resolver is added and links to bcc-crypto within prelude
+resolver: https://raw.githubusercontent.com/The-Blockchain-Company/bcc-prelude/snapshot.yaml
+
+
+packages:
+  - .
+
+extra-deps:
+  - git: https://github.com/The-Blockchain-Company/bcc-prelude
+    commit: ad2544a45a08f950017198b7b16b768002696406
+    subdirs:
+      - .
+      - test
