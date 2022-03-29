@@ -131,7 +131,7 @@ instance Arbitrary AltNames where
 instance Arbitrary (Unknown AltNames) where
     arbitrary =
         fmap (Unknown . mkAltNames) $ listOf1 $ elements
-            [ "www.bcccoin.io"
+            [ "www.blockchain-company.io"
             , "14.14.14.14"
             , "2607:f0d0:1002:0051:0000:0000:0000:0004"
             ]
