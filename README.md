@@ -42,7 +42,7 @@ main = do
         head . find ((== outDir) . certOutDir)
 ```
 
-Alternatively, have a look at [gencerts/Main.hs](https://github.com/input-output-hk/cardano-sl/tools/src/gencerts/Main.hs)
+Alternatively, have a look at [gencerts/Main.hs](https://github.com/The-Blockchain-Company/bcc-sl/tools/src/gencerts/Main.hs)
 
 
 ## Configuration
