@@ -1,4 +1,4 @@
-name:                Bcc-sl-x509
+name:                bcc-sl-x509
 version:             3.0.0
 synopsis:            Tool-suite for generating x509 certificates specialized for RSA with SHA-256
 description:         See README
@@ -29,7 +29,7 @@ library
                , asn1-types
                , base64-bytestring
                , bytestring
-               , Bcc-prelude
+               , bcc-prelude
                , cryptonite
                , data-default-class
                , directory
@@ -65,7 +65,7 @@ test-suite Bcc-sl-x509-test
 
   build-depends:      base
                     , QuickCheck
-                    , Bcc-prelude
-                    , Bcc-sl-x509
+                    , bcc-prelude
+                    , bcc-sl-x509
                     , exceptions
                     , hedgehog
